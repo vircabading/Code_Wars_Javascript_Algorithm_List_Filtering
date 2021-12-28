@@ -13,3 +13,5 @@ function filter_list(l) {
 }
 
 console.log("Filter [1,2,'a','b']:",filter_list([1,2,'a','b']));
+console.log("Filter [1,'a','b',0,15]:",filter_list([1,'a','b',0,15]));
+// console.log("Filter [1,2,'a','b']:",filter_list([1,2,'a','b']));
