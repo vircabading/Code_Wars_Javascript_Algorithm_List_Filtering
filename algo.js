@@ -3,13 +3,14 @@
 //////////////////////////////////////////////////////
 
 function filter_list(l) {
-    let newist = [];
+    let newList = [];
     for (let x=0; x<l.length; x++) {
         console.log (typeof(l[x]));
         if (typeof(l[x]) == "number") {
-            console.log("number found");
+            newList.push(l[x]);
         }
     }
+    return newList;
 }
 
-filter_list([1,2,'a','b']);
+console.log("Filter [1,2,'a','b']:",filter_list([1,2,'a','b']));
